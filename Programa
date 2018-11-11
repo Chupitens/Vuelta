@@ -1,0 +1,11 @@
+#include <stdio.h>
+int pago
+int precio
+int cambio
+int main(void) {
+printf("Introduzca el precio del producto: ");
+scanf("d%" , &precio);
+pago = 100;
+cambio = pago - precio;
+printf("Cambio : %d\n" , cambio );
+}
